@@ -58,7 +58,7 @@ make
 Run the following command
 
 ```
-python ./python/cuberite_process.py
+python3 ./python/cuberite_process.py
 ```
 to start an instance of cuberite instance listening on `localhost:25565`
 

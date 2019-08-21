@@ -128,7 +128,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", default="diverse_world")
     parser.add_argument("--seed", type=int, default=0)
-    parser.add_argument("--port", type=int, default=25565)
+    parser.add_argument("--port", type=int, default=DEFAULT_PORT)
     parser.add_argument("--logging", action="store_true")
     parser.add_argument("--log-comm-in", action="store_true")
     parser.add_argument("--mode", choices=["creative", "survival"], default="creative")

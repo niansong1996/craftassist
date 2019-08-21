@@ -26,7 +26,7 @@ def rectangle(
     bid: IDM = DEFAULT_IDM,
     orient="xy",
     labelme=False,
-    **kwargs,
+    **kwargs
 ):
     if height is not None:
         size = (height, size[1])
